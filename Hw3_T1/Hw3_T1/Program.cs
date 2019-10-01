@@ -10,13 +10,18 @@ namespace Hw3_T1
     {
         static void Main(string[] args)
         {
+            SumAB();
+        }
+
+        private static void SumAB()
+        {
             Console.WriteLine("enter the first number");
             int fnum = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("enter the second number");
             int snum = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(fnum+snum);
+            Console.WriteLine(fnum + snum);
             Console.ReadKey();
         }
     }
