@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hw3_T2
+namespace Hw3_T3
 {
     class Program
     {
