@@ -19,13 +19,17 @@ namespace Hw3_T2
             Console.WriteLine("enter amount");
             int sum = Convert.ToInt32(Console.ReadLine());
 
-            if (sum == num1+num2)
+            if (sum == num1 + num2)
             {
             Console.WriteLine(sum + " this is the correct answer");
             }
-            else
+            else if (sum < num1 + num2)
             {
-            Console.WriteLine("the answer is incorrect");
+            Console.WriteLine("the answer is incorrect, should be more");
+            }
+            else if (sum > num1 + num2)
+            {
+            Console.WriteLine("the answer is incorrect, should be less");
             }
             Console.ReadKey();
         }
